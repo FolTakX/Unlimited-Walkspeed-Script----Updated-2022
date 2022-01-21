@@ -7,8 +7,8 @@ Discord Server: https://discord.gg/vpEGdKpWQg (You need to be 13 in order to use
 
 --]]
 
-local Walkspeed = 1000 -- Set this value to whatever you like.
-local JumpPower = 320 -- Same goes with the JumpPower.
+local Walkspeed = 100 -- Set this value to whatever you like.
+local JumpPower = 150 -- Same goes with the JumpPower.
 
 
 while wait(1) do --Loop the code every second
