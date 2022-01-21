@@ -1,0 +1,33 @@
+-[[
+
+DISCLAIMER: ALL CREDITS GOES TO @WRITINGMODDER, PLEASE DO NOT CLAIM THIS SCRIPT AS YOUR OWN.
+
+Discord: FolTakX#0165
+Discord Server: https://discord.gg/vpEGdKpWQg (You need to be 13 in order to use Discord, but some countries will need you to be older instead, some don't. COPPA rules says that you can be under 13 if you have permission from a parent to use Discord, like me.)
+
+--]]
+
+local Walkspeed = 1000 -- Set this value to whatever you like.
+local JumpPower = 320 -- Same goes with the JumpPower.
+
+
+while wait(1) do --Loop the code every second
+    if game.Players.LocalPlayer.Character.Humanoid.WalkSpeed ~= Walkspeed then
+        game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = Walkspeed
+    end
+    if game.Players.LocalPlayer.Character.Humanoid.JumpPower ~= JumpPower then 
+        game.Players.LocalPlayer.Character.Humanoid.JumpPower = JumpPower
+    end
+end
+if game.Players.LocalPlayer.Character.Humanoid.WalkSpeed == Walkspeed and game.Players.LocalPlayer.Character.Humanoid.JumpPower == JumpPower then
+    print("Script successfully loaded.")
+else
+    print("Failed to load the script, please contact the owner! Error Code: 1")
+end
+while wait (1) do if game.Players.LocalPlayer.Character.Humanoid.WalkSpeed ~= Walkspeed and game.Players.LocalPlayer.Character.Humanoid.JumpPower ~= JumpPower then
+        while wait(1) do if game.Players.LocalPlayer.Character.Humanoid.WalkSpeed ~= Walkspeed then game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = Walkspeed end if game.Players.LocalPlayer.Character.Humanoid.JumpPower ~= JumpPower then game.Players.LocalPlayer.Character.Humanoid.JumpPower = JumpPower end end
+        print("You have died, but the script reloaded.")
+   end
+end
+
+-- i'm too lazy to write comment into every single one of these code lines, this took a lot of work so please consider following me on twitter or idk lol
