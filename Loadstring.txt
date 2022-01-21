@@ -1,0 +1,1 @@
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FolTakX/Unlimited-Walkspeed-Script----Updated-2022/main/Unlimited%20Walkspeed%20%26%20JumpPower.txt"))()
